@@ -13,12 +13,7 @@ export default function Header({ children }: HeaderProps) {
       </h1>
       <div className="w-px self-stretch bg-gray-300" />
       <div className="flex gap-3">
-        <Image
-          alt="avatar"
-          width={44}
-          height={44}
-          src="../../../public/images/avatar.png"
-        />
+        <Image alt="avatar" width={44} height={44} src="/images/avatar.png" />
         <div>
           <p className="text-base font-semibold text-gray-900">Adam Smith</p>
           <p className="text-sm font-light text-gray-900">
